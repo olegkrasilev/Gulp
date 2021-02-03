@@ -45,6 +45,14 @@ img {
   max-width: 100%;
 }
 
+img[width] {
+  width: auto;
+}
+
+img[width][height] {
+  height: auto;
+}
+
 ul {
   list-style: none;
 }
